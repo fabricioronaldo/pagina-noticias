@@ -1,0 +1,30 @@
+.primary {
+    
+}
+
+.primary__image {
+    width: 100%;
+    padding: 0 .5em;
+}
+
+.primary__title {
+    padding: 0 .2em;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.primary__text {
+    padding: 0 .5em;
+    font-size: 1.1em;
+    color: var(--dark-grayish-blue);
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+
+.primary__button {
+    color: var(--off-white);
+    background: var(--red);
+    margin-left: .5em;
+    padding: 1em 3em;
+    
+}
