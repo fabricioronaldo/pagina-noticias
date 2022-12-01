@@ -1,0 +1,20 @@
+.new {
+    margin: 4em 0.5em 2em 0.5em;
+    background: var(--very-dark-blue);
+    padding: 1em;
+    
+}
+
+.new__title {
+    font-size: 2em;
+    color: var(--orange);
+    padding: 1em .5em;
+
+}
+
+.new__content {
+    padding: 1em;
+    color: var(--off-white);
+    border-bottom: 1px solid var(--grayish-blue);
+}
+
