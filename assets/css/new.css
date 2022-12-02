@@ -18,3 +18,9 @@
     border-bottom: 1px solid var(--grayish-blue);
 }
 
+@media screen and (min-width: 1440px) {
+    
+    .new {
+        grid-column: 3 / 4;
+    }
+}

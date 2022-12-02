@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    right: -100vw;
+    transition: .25s;
+    background: white;
+}
+
+.menu--ativo {
+    right: 0;
+    transition: .25s;
+}
+
+
+
+.menu__link {
+    padding: 1em;
+    color: var(--very-dark-blue);
+    font-size: 1.2em;
+}
+
+.menu__link:hover {
+    background: var(--red);
+}

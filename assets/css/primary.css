@@ -28,6 +28,29 @@
     padding: 1em 3em;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
-    
+}
+
+.primary__image-desk {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .primary {
+        display: grid;
+        grid-template-columns: 33.33% 33.33%;
+        grid-template-rows: auto auto;
+    }
+
+    .primary__image {
+        display: none;
+    }
+
+    .primary__image-desk {
+        width: 100%;
+    }
+
+    .primary__content {
+        grid-column: 1 / 3;
+    }    
+
 }

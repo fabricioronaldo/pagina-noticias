@@ -1,7 +1,9 @@
 @import url("header.css");
+@import url("menu.css");
 @import url("primary.css");
 @import url("new.css");
 @import url("emphasis.css");
+
 
 
 :root {
@@ -30,3 +32,33 @@ body {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  @media screen and (min-width: 1440px) {
+    .app {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "container"
+            "footer";
+        
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+    }
+
+    .header {
+      grid-area: header;
+    }
+
+    .container {
+      grid-area: container;
+    }
+
+    .footer {
+      grid-area: footer;
+    }
+    
+    
+
+    
+
+}

@@ -1,4 +1,30 @@
-.header__logo {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 2em 1em;
 }
 
+.header__logo {
+    //padding: 2em 1em;
+}
+
+.header__menu {
+    background: white;
+    border: none;
+}
+
+.menu__desk {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .header__menu {
+        display: none;
+    }
+
+    .menu__desk {
+        display: block;
+    }
+}

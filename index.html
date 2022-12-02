@@ -14,19 +14,49 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="app">
   <header class="header">
     <img src="./assets/images/logo.svg" alt="Logo da Empresa" class="header__logo">
+    <button class="header__menu" onclick="icon('img')"><img src="./assets/images/icon-menu.svg" alt=""
+        id="img"></button>
+    <nav class="menu__desk">
+      <a href="#" class="menu__link">Home</a>
+      <a href="#" class="menu__link">New</a>
+      <a href="#" class="menu__link">Popular</a>
+      <a href="#" class="menu__link">Trending</a>
+      <a href="#" class="menu__link">Categories</a>
+    </nav>
   </header>
 
-  <main>
+  <nav class="menu">
+    <a href="#" class="menu__link">Home</a>
+    <a href="#" class="menu__link">New</a>
+    <a href="#" class="menu__link">Popular</a>
+    <a href="#" class="menu__link">Trending</a>
+    <a href="#" class="menu__link">Categories</a>
+  </nav>
+
+
+
+  <main class="container">
     <section class="primary">
-      <img src="./assets/images/image-web-3-mobile.jpg" alt="Imagem" class="primary__image">
-      <h1 class="primary__title">The Bright Future of Web 3.0?</h1>
-      <p class="primary__text">We dive into the next evolution of the web that claims to put the power of the
-        platforms back into the hands of the people.
-        But is it really fulfilling its promise?</p>
-      <a href="#" class="primary__button">Read more</a>
+
+      <div class="primary__content">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="Imagem" class="primary__image">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="Imagem" class="primary__image-desk">
+      </div>
+
+      <div>
+        <h1 class="primary__title">The Bright Future of Web 3.0?</h1>
+      </div>
+
+      <div>
+        <p class="primary__text">We dive into the next evolution of the web that claims to put the power of the
+          platforms back into the hands of the people.
+          But is it really fulfilling its promise?</p>
+        <a href="#" class="primary__button">Read more</a>
+      </div>
+
     </section>
 
     <section class="new">
@@ -87,16 +117,7 @@
     Coded by <a href="#">Fabricio Velasco</a>.
 
   </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-Home
-New
-Popular
-Trending
-Categories
