@@ -14,8 +14,6 @@
     transition: .25s;
 }
 
-
-
 .menu__link {
     padding: 1em;
     color: var(--very-dark-blue);
@@ -24,4 +22,14 @@
 
 .menu__link:hover {
     background: var(--red);
+}
+
+@media screen and (min-width: 1440px) {
+    .menu__desk {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
 }

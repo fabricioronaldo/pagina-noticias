@@ -50,7 +50,12 @@ body {
     }
 
     .container {
-      grid-area: container;
+      //grid-area: container;
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+      grid-template-rows: auto auto auto;
+      //gap: .5em;
+
     }
 
     .footer {

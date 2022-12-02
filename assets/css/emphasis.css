@@ -32,3 +32,36 @@
     line-height: 1.5em;
     
 }
+
+@media screen and (min-width:1440px) {
+    
+    .emphasis {
+        padding: 5em 1em;
+        grid-column: 1/4;
+        grid-row: 3/3;
+    }
+
+    .emphasis__content{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        gap: .5em;
+        
+    }
+    
+    .emphasis__card:nth-child(1) {
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    .emphasis__card:nth-child(2) {
+        grid-column: 2/2;
+        grid-row: 1/1;
+    }
+
+    .emphasis__card:nth-child(3) {
+        grid-column: 3/3;
+        grid-row: 1/1;
+    }
+}
+

@@ -1,8 +1,7 @@
 .new {
     margin: 4em 0.5em 2em 0.5em;
     background: var(--very-dark-blue);
-    padding: 1em;
-    
+        
 }
 
 .new__title {
@@ -21,6 +20,31 @@
 @media screen and (min-width: 1440px) {
     
     .new {
-        grid-column: 3 / 4;
+        padding: 1em;
+        grid-column: 3 / 3;
+        grid-row: 1 / 2;
+        height: 100%;
+        margin: 0 1em 0 0;
     }
+
+    .new__title {
+        font-size: 3.5em;
+    }
+
+    .new__content{
+        padding: 1em;
+        line-height: 2em;
+    }
+    .new__content:nth-child(4){
+        border: none;
+    }
+
+    .content__subtitle {
+        font-size: 1.7em;
+    }
+
+    .content__description {
+        font-size: 1.2em;
+    }
+
 }
