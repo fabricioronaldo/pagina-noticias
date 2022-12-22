@@ -1,18 +1,10 @@
 const button_menu = document.querySelector('.header__menu')
 const menu = document.querySelector('.menu')
-const open = document.getElementById('img').src;
+const icone = document.querySelector('#img')
 
 button_menu.addEventListener('click', () => {
     menu.classList.toggle('menu--ativo')
+    icone.classList.toggle('icon_close')
+    
 })
 
-function icon(objeto){
-
-    if(document.getElementById(objeto).src != "./assets/images/icon-menu.svg") {
-        document.getElementById(objeto).src = "./assets/images/icon-menu-close.svg";    
-    }else {
-        document.getElementById(objeto).src = "./assets/images/icon-menu.svg";
-    }
-
-    
-}
